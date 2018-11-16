@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-ifneq ($(filter gts28wifi gts28ltexx gts210wifi gts210ltexx,$(TARGET_DEVICE)),)
+ifneq ($(filter treltexx tre3gxx,$(TARGET_DEVICE)),)
 
 LOCAL_PATH := $(call my-dir)
 

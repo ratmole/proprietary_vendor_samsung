@@ -12,8 +12,11 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+# Mali symlinks for Vulkan and OpenCL
+PRODUCT_PACKAGES += libGLES_mali
+
 # Include blob-finder
-include vendor/samsung/gts28wifi/find-vendor-blobs.mk
+include vendor/samsung/trelte-common/find-vendor-blobs.mk
 
 # Proprietary blobs
-PRODUCT_COPY_FILES += $(call find-vendor-blobs,vendor/samsung/gts28wifi/proprietary)
+PRODUCT_COPY_FILES += $(call find-vendor-blobs,vendor/samsung/trelte-common/proprietary)
